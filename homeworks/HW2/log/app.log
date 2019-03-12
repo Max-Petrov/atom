@@ -1,0 +1,5 @@
+2019-03-13 23:19:09.430 INFO [main] [BullsAndCows] [play] [BullsAndCows.play(BullsAndCows.java:74)] - Game started
+2019-03-13 23:19:09.586 INFO [main] [BullsAndCows] [play] [BullsAndCows.play(BullsAndCows.java:78)] - The secret is lures
+2019-03-13 23:19:24.161 INFO [main] [BullsAndCows] [play] [BullsAndCows.play(BullsAndCows.java:84)] - The user entered a variant: lurec
+2019-03-13 23:19:27.576 INFO [main] [BullsAndCows] [play] [BullsAndCows.play(BullsAndCows.java:84)] - The user entered a variant: lures
+2019-03-13 23:19:27.576 INFO [main] [BullsAndCows] [play] [BullsAndCows.play(BullsAndCows.java:87)] - The user won!
