@@ -1,6 +1,8 @@
-import java.io.IOException;
+package com.example;
 
-import io.Console;
+import com.example.io.Console;
+
+import java.io.IOException;
 
 public class Main {
 

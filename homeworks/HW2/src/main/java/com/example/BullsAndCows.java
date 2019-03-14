@@ -1,7 +1,8 @@
+package com.example;
+
 import java.io.IOException;
 
-import io.IConsole;
-
+import com.example.io.IConsole;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 

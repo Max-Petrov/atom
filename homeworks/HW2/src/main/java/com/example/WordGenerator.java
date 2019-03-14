@@ -1,5 +1,7 @@
-import io.FileStringReader;
-import io.StringReader;
+package com.example;
+
+import com.example.io.FileStringReader;
+import com.example.io.StringReader;
 
 import java.io.IOException;
 import java.util.ArrayList;

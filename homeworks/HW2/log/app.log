@@ -1,5 +1,22 @@
-2019-03-13 23:19:09.430 INFO [main] [BullsAndCows] [play] [BullsAndCows.play(BullsAndCows.java:74)] - Game started
-2019-03-13 23:19:09.586 INFO [main] [BullsAndCows] [play] [BullsAndCows.play(BullsAndCows.java:78)] - The secret is lures
-2019-03-13 23:19:24.161 INFO [main] [BullsAndCows] [play] [BullsAndCows.play(BullsAndCows.java:84)] - The user entered a variant: lurec
-2019-03-13 23:19:27.576 INFO [main] [BullsAndCows] [play] [BullsAndCows.play(BullsAndCows.java:84)] - The user entered a variant: lures
-2019-03-13 23:19:27.576 INFO [main] [BullsAndCows] [play] [BullsAndCows.play(BullsAndCows.java:87)] - The user won!
+2019-03-13 23:19:09.430 INFO [main] [com.example.BullsAndCows] [play] [com.example.BullsAndCows.play(com.example.BullsAndCows.java:74)] - Game started
+2019-03-13 23:19:09.586 INFO [main] [com.example.BullsAndCows] [play] [com.example.BullsAndCows.play(com.example.BullsAndCows.java:78)] - The secret is lures
+2019-03-13 23:19:24.161 INFO [main] [com.example.BullsAndCows] [play] [com.example.BullsAndCows.play(com.example.BullsAndCows.java:84)] - The user entered a variant: lurec
+2019-03-13 23:19:27.576 INFO [main] [com.example.BullsAndCows] [play] [com.example.BullsAndCows.play(com.example.BullsAndCows.java:84)] - The user entered a variant: lures
+2019-03-13 23:19:27.576 INFO [main] [com.example.BullsAndCows] [play] [com.example.BullsAndCows.play(com.example.BullsAndCows.java:87)] - The user won!
+2019-03-14 01:30:52.481 INFO [main] [com.example.BullsAndCows] [play] [com.example.BullsAndCows.play(com.example.BullsAndCows.java:74)] - Game started
+2019-03-14 01:30:52.661 INFO [main] [com.example.BullsAndCows] [play] [com.example.BullsAndCows.play(com.example.BullsAndCows.java:78)] - The secret is inarm
+2019-03-14 01:31:27.148 INFO [main] [com.example.BullsAndCows] [play] [com.example.BullsAndCows.play(com.example.BullsAndCows.java:84)] - The user entered a variant: inarm
+2019-03-14 01:31:27.150 INFO [main] [com.example.BullsAndCows] [play] [com.example.BullsAndCows.play(com.example.BullsAndCows.java:87)] - The user won!
+2019-03-14 01:36:02.867 INFO [main] [com.example.BullsAndCows] [play] [com.example.BullsAndCows.play(com.example.BullsAndCows.java:74)] - Game started
+2019-03-14 01:36:03.010 INFO [main] [com.example.BullsAndCows] [play] [com.example.BullsAndCows.play(com.example.BullsAndCows.java:78)] - The secret is isatis
+2019-03-14 11:10:52.489 INFO [main] [com.example.BullsAndCows] [play] [com.example.BullsAndCows.play(com.example.BullsAndCows.java:74)] - Game started
+2019-03-14 11:10:52.736 INFO [main] [com.example.BullsAndCows] [play] [com.example.BullsAndCows.play(com.example.BullsAndCows.java:78)] - The secret is magi
+2019-03-14 11:11:03.151 INFO [main] [com.example.BullsAndCows] [play] [com.example.BullsAndCows.play(com.example.BullsAndCows.java:84)] - The user entered a variant: mag
+2019-03-14 11:11:08.967 INFO [main] [com.example.BullsAndCows] [play] [com.example.BullsAndCows.play(com.example.BullsAndCows.java:84)] - The user entered a variant: magi
+2019-03-14 11:11:08.968 INFO [main] [com.example.BullsAndCows] [play] [com.example.BullsAndCows.play(com.example.BullsAndCows.java:87)] - The user won!
+2019-03-14 11:35:31.058 INFO [main] [com.example.BullsAndCows] [play] [com.example.BullsAndCows.play(BullsAndCows.java:76)] - Game started
+2019-03-14 11:35:31.230 INFO [main] [com.example.BullsAndCows] [play] [com.example.BullsAndCows.play(BullsAndCows.java:80)] - The secret is optant
+2019-03-14 11:35:37.403 INFO [main] [com.example.BullsAndCows] [play] [com.example.BullsAndCows.play(BullsAndCows.java:86)] - The user entered a variant: optant
+2019-03-14 11:35:37.404 INFO [main] [com.example.BullsAndCows] [play] [com.example.BullsAndCows.play(BullsAndCows.java:89)] - The user won!
+2019-03-14 11:54:18.661 INFO [main] [com.example.BullsAndCows] [play] [com.example.BullsAndCows.play(BullsAndCows.java:75)] - Game started
+2019-03-14 11:54:18.830 INFO [main] [com.example.BullsAndCows] [play] [com.example.BullsAndCows.play(BullsAndCows.java:79)] - The secret is brandi

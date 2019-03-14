@@ -1,4 +1,4 @@
-package io;
+package com.example.io;
 
 import java.util.Scanner;
 

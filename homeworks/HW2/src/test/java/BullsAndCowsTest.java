@@ -1,4 +1,6 @@
-import io.IConsole;
+import com.example.BullsAndCows;
+import com.example.io.IConsole;
+
 import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;
