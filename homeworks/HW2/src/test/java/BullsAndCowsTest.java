@@ -26,21 +26,21 @@ public class BullsAndCowsTest {
             10);
     
     @Test
-    public void TestBullsAndCows1() {
+    public void testBullsAndCows1() {
         BullsAndCows.Result result = mGame.getBullsAndCowsResult("aabbccd", "aabbert");
         assertThat(result.bulls, is(equalTo(4)));
         assertThat(result.cows, is(equalTo(0)));
     }
 
     @Test
-    public void TestBullsAndCows2() {
+    public void testBullsAndCows2() {
         BullsAndCows.Result result = mGame.getBullsAndCowsResult("wefsfef", "rtaokl");
         assertThat(result.bulls, is(equalTo(0)));
         assertThat(result.cows, is(equalTo(0)));
     }
 
     @Test
-    public void TestBullsAndCows3() {
+    public void testBullsAndCows3() {
         BullsAndCows.Result result = mGame.getBullsAndCowsResult("abcdef", "acfedl");
         assertThat(result.bulls, is(equalTo(1)));
         assertThat(result.cows, is(equalTo(4)));
