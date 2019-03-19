@@ -29,6 +29,14 @@ public class ChatClientTest {
     }
 
     @Test
+    public void logout() throws IOException {
+        ChatClient.login(MY_NAME_IN_CHAT);
+        Response response = ChatClient.logout(MY_NAME_IN_CHAT);
+        System.out.println("[" + response + "]");
+        Assert.assertEquals("You have successfully logged in", response.body().string());
+    }
+
+    @Test
     public void viewChat() throws IOException {
         ChatClient.login(MY_NAME_IN_CHAT);
         ChatClient.clearHistory();
