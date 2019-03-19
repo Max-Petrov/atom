@@ -31,10 +31,11 @@ public class ChatClientTest {
     @Test
     public void viewChat() throws IOException {
         ChatClient.login(MY_NAME_IN_CHAT);
+        ChatClient.clearHistory();
         ChatClient.say(MY_NAME_IN_CHAT, MY_MESSAGE_TO_CHAT);
         Response response = ChatClient.viewChat();
         System.out.println("[" + response + "]");
-        Assert.assertEquals("[I_AM_STUPID]: logged in\n[I_AM_STUPID]: SOMEONE_KILL_ME", response.body().string());
+        Assert.assertEquals("[I_AM_STUPID]: SOMEONE_KILL_ME", response.body().string());
     }
 
 
