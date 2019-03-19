@@ -17,6 +17,7 @@ import java.io.IOException;
 public class ChatClientTest {
     private static String MY_NAME_IN_CHAT = "I_AM_STUPID";
     private static String MY_MESSAGE_TO_CHAT = "SOMEONE_KILL_ME";
+    private static String MY_NEW_NAME = "I_AM_CLEVER";
 
     @Test
     public void login() throws IOException {
@@ -29,26 +30,43 @@ public class ChatClientTest {
 
     @Test
     public void viewChat() throws IOException {
+        ChatClient.login(MY_NAME_IN_CHAT);
+        ChatClient.say(MY_NAME_IN_CHAT, MY_MESSAGE_TO_CHAT);
         Response response = ChatClient.viewChat();
         System.out.println("[" + response + "]");
-        System.out.println(response.body().string());
-        Assert.assertEquals(200, response.code());
+        Assert.assertEquals("[I_AM_STUPID]: logged in\n[I_AM_STUPID]: SOMEONE_KILL_ME", response.body().string());
     }
 
 
     @Test
     public void viewOnline() throws IOException {
+        ChatClient.login(MY_NAME_IN_CHAT);
         Response response = ChatClient.viewOnline();
         System.out.println("[" + response + "]");
-        System.out.println(response.body().string());
-        Assert.assertEquals(200, response.code());
+        Assert.assertEquals("I_AM_STUPID", response.body().string());
     }
 
     @Test
     public void say() throws IOException {
+        ChatClient.login(MY_NAME_IN_CHAT);
         Response response = ChatClient.say(MY_NAME_IN_CHAT, MY_MESSAGE_TO_CHAT);
         System.out.println("[" + response + "]");
-        System.out.println(response.body().string());
-        Assert.assertEquals(200, response.code());
+        Assert.assertEquals("The message has been successfully sent", response.body().string());
+    }
+
+    @Test
+    public void changeUserName() throws IOException {
+        ChatClient.login(MY_NAME_IN_CHAT);
+        Response response = ChatClient.changeUserName(MY_NAME_IN_CHAT, MY_NEW_NAME);
+        System.out.println("[" + response + "]");
+        Assert.assertEquals("Your name has been successfully changed!", response.body().string());
+    }
+
+    @Test
+    public void clearHistory() throws IOException {
+        ChatClient.login(MY_NAME_IN_CHAT);
+        Response response = ChatClient.clearHistory();
+        System.out.println("[" + response + "]");
+        Assert.assertEquals("The chat has been successfully cleared!", response.body().string());
     }
 }
